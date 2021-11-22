@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form onsubmit="return false">
+
+        <label for="">Körpergröße</label>
+        <input type="text" id="groesse">
+        <label for="">Alter</label>
+        <input type="text" id="alter">
+        <label for="">Gewicht</label>
+        <input type="text" id="gewicht">
+
+        <h3>Körperbau</h3>
+        <div>
+            <input name="rechner" type="radio" id="w">
+            <label for="">Weiblich</label>
+        </div>
+        <div>
+            <input name="rechner" type="radio" id="m">
+            <label for="">Mänlich</label>
+        </div>
+        <h3>Arbeits- und Freizeitaktivität</h3>
+        <select name="" id="belastung">
+            <option value="0.95">Schlafen</option>
+            <option value="1.2">Nur Sitzen oder Liegen</option>
+            <option value="1.51.7">Nur sitzend</option>
+            <option value="1.7">Sitzend und gehend</option>
+            <option value="1.9">Stehend und gehend</option>
+            <option value="2.2">Körperlich anstrengende Tätigkeit</option>
+        </select>
+
+        <button onclick="senden()">Submit</button>
+
+        <div>
+            <label for="">Grundumsatz</label>
+            <p id="kcal1">0</p>
+
+        </div>
+        <div>
+            <label for="">Gesamtumsatz</label>
+            <p id="kcal2">0</p>
+
+        </div>
+    </form>
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

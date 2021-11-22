@@ -1,0 +1,29 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+form {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(252, 47, 47, 0.6);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+form label {
+  margin: 5px 0;
+  color: #656565;
+}
+form button {
+  width: 200px;
+  margin: 5px auto;
+  padding: 5px 0;
+}
+form input[type=text] {
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
